@@ -1,9 +1,9 @@
 package br.com.bytebank.test;
 
-import br.com.bytebank.model.CalculadorImposto;
-import br.com.bytebank.model.ContaCorrente;
-import br.com.bytebank.model.ContaPoupanca;
-import br.com.bytebank.model.SeguroDeVida;
+import br.com.bytebank.conta.model.CalculadorImposto;
+import br.com.bytebank.conta.model.ContaCorrente;
+import br.com.bytebank.conta.model.ContaPoupanca;
+import br.com.bytebank.conta.model.SeguroDeVida;
 
 public class TestConta {
 

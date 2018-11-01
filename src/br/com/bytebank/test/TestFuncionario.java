@@ -1,12 +1,12 @@
 package br.com.bytebank.test;
 
-import br.com.bytebank.model.Administrador;
-import br.com.bytebank.model.Cliente;
-import br.com.bytebank.model.Funcionario;
-import br.com.bytebank.model.Gerente;
-import br.com.bytebank.model.PolimorfismoBonificacoes;
-import br.com.bytebank.model.Porteiro;
-import br.com.bytebank.model.SistemaInterno;
+import br.com.bytebank.conta.model.Cliente;
+import br.com.bytebank.funcionario.model.Administrador;
+import br.com.bytebank.funcionario.model.Funcionario;
+import br.com.bytebank.funcionario.model.Gerente;
+import br.com.bytebank.funcionario.model.PolimorfismoBonificacoes;
+import br.com.bytebank.funcionario.model.Porteiro;
+import br.com.bytebank.funcionario.model.SistemaInterno;
 
 public class TestFuncionario {
 
