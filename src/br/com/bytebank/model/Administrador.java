@@ -1,19 +1,18 @@
 package br.com.bytebank.model;
 
-public class Gerente extends Funcionario implements Autentica {
+public class Administrador extends Funcionario implements Autentica  {
 	
 	private AutenticadorUtil autenticador;
 
-	public Gerente(String nome, String cpf) {
+	public Administrador(String nome, String cpf) {
 		super(nome, cpf);
-		autenticador = new AutenticadorUtil();
+		autenticador = new AutenticadorUtil(); 
 	}
 
 	@Override
 	public double calculaBonificacao() {
-		return super.getSalario() * 0.5;
+		return super.getSalario() + 666.0;
 	}
-	
 	@Override
 	public boolean autentica(String senha) {
 		return autenticador.autentica(senha);
